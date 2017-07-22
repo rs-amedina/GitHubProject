@@ -17,7 +17,7 @@ namespace GitHubProject
             {
                 ContentPage = new Label()
                 {
-                    Text = "Welcome";
+                    Text = "Welcome!";
                 }
             }
         }
