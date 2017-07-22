@@ -13,7 +13,13 @@ namespace GitHubProject
         {
             InitializeComponent();
             // The root page of your application
-            MainPage = new GitHubProject.MainPage();
+            MainPage = new ContentPage();
+            {
+                ContentPage = new Label()
+                {
+                    Text = "Welcome";
+                }
+            }
         }
 
         private void InitializeComponent()
